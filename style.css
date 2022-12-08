@@ -1,0 +1,32 @@
+body
+{
+  color: rgb(147, 2, 250);
+  background: paleturquoise;
+}
+.heading
+{
+  width: 70%;
+  font-size: 30px;
+}
+#camera 
+{
+  border: 2px dashed rgb(7, 254, 196);
+  width: 350px;
+  height: 300px; 
+}
+.name_of_the_item, #result_item_name  , #result_item_accuracy
+{
+  color: rgb(13, 9, 239);
+}
+
+button
+{
+    color: rgb(0, 240, 188);
+    width: 100px;
+    height: 50px;
+    background-color: rgb(242, 0, 81);
+    border: aqua;
+}
+button:hover{
+  background-color: blueviolet;
+}

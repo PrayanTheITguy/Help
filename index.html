@@ -1,0 +1,47 @@
+<html>
+    <head>  
+        <Title>Image Identification</Title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+      </head>
+        <body>
+          <center>
+            <h3>IMAGE RECOGNITION </h3>
+            <br>
+            <p style="font-size: 30px;">Camera is trained to identify objects</p>
+
+            <b class="name_of_the_item">
+                Mouse
+                <hr>
+                Bottle
+                <hr>
+                Bag
+                <hr>
+            </b>
+            <label>Webcam Vison - </label>
+            <div id="camera"></div>
+            <br><br>
+            <div id="outcome"></div>
+            <br><br>
+      <button onclick="take_snapshot();">Capture Image</button>
+      <br><br>
+      <button onclick="check();">Identify Image</button>
+      <br><br>
+
+
+      
+      <p style="font-size: 30px;">Object : <span id="result_item_name"></span> </p>
+      <p style="font-size: 30px;">Accuracy Percentage: <span id="result_item_accuracy"></span> </p>
+            
+          </center>
+        </body>
+
+
+</html>
